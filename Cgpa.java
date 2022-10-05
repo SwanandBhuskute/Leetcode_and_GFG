@@ -14,12 +14,12 @@ public class Cgpa{
         for(int i=0; i<num; i++){
             float cgpa = sc.nextFloat();
              
-            if(cgpa>=8.0){
+            if(cgpa>=9.0){
                 ++count;
             }
         }
         
-        System.out.println("Name of students with 8+ CGPA: "); 
+        System.out.println("Name of students with 9+ CGPA: "); 
         String name[] = new String[count]; 
         for(int j=0; j<count; j++){ 
             name[j] = sc.nextLine();
@@ -31,14 +31,14 @@ public class Cgpa{
         for (int j=0;j<num;j++){
             
             if (name[j].contains(name1)){
-                System.out.println(name1+" is a 8.0 pointer");
+                System.out.println(name1+" is a 9.0 pointer");
                 count1=count1+1;
                 
             }
         
             }
         if(count1==0){
-                System.out.println(name1+" is not a 8.0 pointer");
+                System.out.println(name1+" is not a 9.0 pointer");
                 }
         
     }
