@@ -21,7 +21,7 @@ public class Cgpa{
         
         System.out.println("Name of students with 8+ CGPA: "); 
         String name[] = new String[count]; 
-        for(int j=0; j<count; j++){ s
+        for(int j=0; j<count; j++){ 
             name[j] = sc.nextLine();
         }
         
